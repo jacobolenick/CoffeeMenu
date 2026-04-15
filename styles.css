@@ -51,6 +51,15 @@ nav {
     font-size: 1.25rem;
     text-decoration: none;
     color: var(--color-text);
+    display: flex;
+    align-items: center;
+    gap: 0.5rem;
+}
+
+.logo-icon {
+    width: 28px;
+    height: 28px;
+    border-radius: 6px;
 }
 
 .nav-links {
